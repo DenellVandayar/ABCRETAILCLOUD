@@ -116,7 +116,8 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 <img width="1366" height="768" alt="Screenshot 2024-08-29 121418" src="https://github.com/user-attachments/assets/a939e3ba-f39e-403c-8bc8-0f607b04dbbc" />
 
 ### Azure SQL Database
-![Azure SQL Database](screenshots/azure-sql.png)
+<img width="1366" height="768" alt="cloud record database" src="https://github.com/user-attachments/assets/d06c2569-45b7-4d06-899a-86d6b01d9fba" />
+<img width="1349" height="720" alt="Database replica" src="https://github.com/user-attachments/assets/b7d85964-4218-4eed-80c4-93d79080f1f6" />
 
 ---
 

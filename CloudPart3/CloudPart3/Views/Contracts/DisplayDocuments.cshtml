@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<Documents>
+
+@{
+    ViewData["Title"] = "Uploaded Documents";
+}
+
+<h2>Uploaded Contracts</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Document Name</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var document in Model)
+        {
+            <tr>
+                <td>@document.FileName</td>
+                <td>
+                    <a asp-action="DownloadDocument" asp-route-id="@document.Id" class="btn btn-info">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

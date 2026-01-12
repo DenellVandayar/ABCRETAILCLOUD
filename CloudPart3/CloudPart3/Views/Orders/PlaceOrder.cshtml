@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Place Order";
+}
+@model CloudPart3.Models.CartOrders // Ensure this is the correct namespace for your Order model
+
+<div class="container">
+    <h2>Order Details</h2>
+    <form asp-action="PlaceOrder" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ItemId" />
+
+        <div class="form-group">
+            <label asp-for="Address"></label>
+            <input asp-for="Address" class="form-control" required />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" class="form-control" required />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="quantity">Quantity</label>
+            <input asp-for="quantity" type="number" min="1" class="form-control" required />
+            <span asp-validation-for="quantity" class="text-danger"></span>
+        </div>
+
+        
+
+        <button type="submit" class="btn btn-primary">Confirm Order</button>
+    </form>
+</div>

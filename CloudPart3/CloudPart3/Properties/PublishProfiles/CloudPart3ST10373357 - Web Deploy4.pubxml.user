@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKevD2RoLFUOqTQhhyK5JmwAAAAACAAAAAAAQZgAAAAEAACAAAAB63UkkgnQH7iFyMtuvfSDyW0eNUSGlAcL6yYmEHyF+UAAAAAAOgAAAAAIAACAAAADBPTB/YOjCmpIcFB67oKky30lMKcW7v/4xJrMDenIuwoAAAADtkY7jxTYE7qJF8YLNmnNZb8pM28zlerXNXyo0vAclb/ZF4HmVdSkvSSBcXVb8nSLPTZCvZTViYHL40esR4P+TsTY8Dr1s69RQhANrzn2vQZ+Vbj+jez+d6cXE79OSmpchbFXyE2ugeiGMvch54bmmA2ZeLwYBhv7prOcuiHqMU0AAAAChxob5b/XXpp8GlcTQlCYNpQQtq8wRjeRgr2RQ2IL9yoaNaRtz6q5dGmmK0ZkYCfm4E2K3gVW5SBa+0as+3RBG</EncryptedPassword>
+    <History>False|2024-10-28T12:27:32.3683975Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApplicationDbContextConnection">
+      <Value>Data Source=tcp:cloudpart3server.database.windows.net,1433%3bInitial Catalog=CloudPart3db%3bUser Id=%40cloudpart3server%3bPassword=</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CloudPart3.Areas.Identity.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:cloudpart3server.database.windows.net,1433%3bInitial Catalog=CloudPart3db%3bUser Id=%40cloudpart3server%3bPassword=</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKevD2RoLFUOqTQhhyK5JmwAAAAACAAAAAAAQZgAAAAEAACAAAACmLP8P0wxo6yJadBO7urjcyp8cotLvanFgAqYywUF4KQAAAAAOgAAAAAIAACAAAAC0aOchqKHGglKzYOeVyveDXhaOtsyOos3BYikimfiD9IAAAAC/0QYgdTmxjXiwDxkoKh8/lDlzIiqJH5wsJhdmidVV1naxqXPlmjfY3vsI6SsKufgasBM0ofUpfreYUtcd5rS15KT9dtnuIZf1VtTVOoVDxhEW1w7Hqx0zNdlNB5FTAwy8E4sQUSSwI7ISwQoKSTs+88AMN2Q06UdEQOVFghpGuEAAAACb6G0tLcCueNGRSgIn47s54ACgLJa5z4mkM1k9d4HoHGu+BjkRpAR0cf3OeqcoqDnr/KhZ0MSEjuHrW67JooOR</EncryptedPassword>
+    <History>False|2024-10-28T11:59:28.6532922Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApplicationDbContextConnection">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=CloudPart3%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustCertificate=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CloudPart3.Areas.Identity.Data.ApplicationDbContext">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=CloudPart3%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustCertificate=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

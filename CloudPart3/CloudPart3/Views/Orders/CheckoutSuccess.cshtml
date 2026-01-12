@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Checkout Success";
+}
+
+<div class="container">
+    <h2>Checkout Successful</h2>
+    <p>Your items have been successfully checked out. Thank you for your order!</p>
+    <a href="@Url.Action("Index", "Items")" class="btn btn-primary">Continue Shopping</a>
+</div>

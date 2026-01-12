@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model Items
+
+@{
+    ViewData["Title"] = "Edit Item";
+}
+
+<h2>Edit Item</h2>
+
+<form asp-action="EditItem" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Item_Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AvailableQuantity"></label>
+        <input asp-for="AvailableQuantity" class="form-control" />
+        <span asp-validation-for="AvailableQuantity" class="text-danger"></span>
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="imageFile">Upload New Image (Optional)</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<a asp-action="ManageItems" class="btn btn-secondary">Cancel</a>
+
+
+   

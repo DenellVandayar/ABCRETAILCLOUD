@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Checkout History";
+}
+@model IEnumerable<CheckoutOrders>
+
+<div class="container">
+    <h2>Checkout History</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+                <th>Checkout Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var checkout in Model)
+            {
+                <tr>
+                    <td>@checkout.ItemName</td>
+                    <td>@checkout.quantity</td>
+                    <td>$@checkout.TotalPrice</td>
+                    <td>@checkout.CheckoutDateTime.ToString("g")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

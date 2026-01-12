@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Add Item";
+}
+
+<form asp-action="AddItem" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="name">Item Name</label>
+        <input type="text" class="form-control" id="name" name="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" name="Description" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="number" class="form-control" id="price" name="Price" required />
+    </div>
+    <div class="form-group">
+        <label for="AvailableQuantity">Available Quantity</label> <!-- Field for quantity -->
+        <input for="AvailableQuantity" type="number" min="1" class="form-control" id="AvailableQuantity" name="AvailableQuantity" required/>
+       
+    </div>
+    <div class="form-group">
+        <label for="imageUpload">Upload Image</label>
+        <input type="file" class="form-control" id="imageUpload" name="ImageUpload" accept="image/*" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Item</button>
+</form>
+

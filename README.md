@@ -126,6 +126,14 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 <img width="1366" height="768" alt="cloud record database" src="https://github.com/user-attachments/assets/d06c2569-45b7-4d06-899a-86d6b01d9fba" />
 <img width="1349" height="720" alt="Database replica" src="https://github.com/user-attachments/assets/b7d85964-4218-4eed-80c4-93d79080f1f6" />
 
+
+### Azure Functions
+<img width="1366" height="768" alt="Screenshot 2024-09-28 152928" src="https://github.com/user-attachments/assets/dc4aef86-edb7-4da8-9b7e-0b5c118d0257" />
+<img width="1366" height="768" alt="Screenshot 2024-09-28 153217" src="https://github.com/user-attachments/assets/5bb65de6-3083-46ac-b823-f14d6c5c8903" />
+<img width="1366" height="768" alt="Screenshot 2024-09-28 153245" src="https://github.com/user-attachments/assets/228c1c95-71fd-4ea6-a0ce-5d40ec13adc1" />
+<img width="1366" height="768" alt="Screenshot 2024-09-28 153319" src="https://github.com/user-attachments/assets/552aecaf-6cb6-4e84-979a-cb358d0e9312" />
+
+
 ---
 
 ## Learning Outcomes

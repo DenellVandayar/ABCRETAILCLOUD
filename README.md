@@ -89,7 +89,7 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 ## Screenshots
 
 ### Application Hosted on Azure App Service
-![Azure App Service Hosting](screenshots/azure-app-service.png)
+<img width="1349" height="729" alt="azure app running" src="https://github.com/user-attachments/assets/18fddf14-f60d-4991-859b-70657db6aba1" />
 
 ### Product Catalog Page
 ![Product Catalog](screenshots/catalog-page.png)

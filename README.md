@@ -92,13 +92,16 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 <img width="1349" height="729" alt="azure app running" src="https://github.com/user-attachments/assets/18fddf14-f60d-4991-859b-70657db6aba1" />
 
 ### Product Catalog Page
-<img width="1366" height="768" alt="Screenshot 2024-08-29 122443" src="https://github.com/user-attachments/assets/047277ed-889e-4ed3-851e-8a4441020e26" />
+<img width="1366" height="625" alt="Screenshot 2024-08-29 122443" src="https://github.com/user-attachments/assets/1a0078b2-9e1a-42fd-b851-5ec26cd40660" />
+
 
 ### Products Order History
-<img width="1366" height="768" alt="Screenshot 2024-08-29 122515" src="https://github.com/user-attachments/assets/2699f63f-bebd-45ce-8333-4e5af01b0ba0" />
+<img width="1366" height="618" alt="Screenshot 2024-08-29 122515" src="https://github.com/user-attachments/assets/51a09493-eb7a-4764-ac59-234980c43e48" />
+
 
 ### Shopping Cart
-<img width="1366" height="768" alt="Screenshot 2024-08-29 120550" src="https://github.com/user-attachments/assets/226205c5-237a-4cd3-9207-d1ce0d786f9f" />
+<img width="1366" height="625" alt="Screenshot 2024-08-29 120550" src="https://github.com/user-attachments/assets/11501cb7-7cdb-4a86-b7d5-805a2ef583fa" />
+
 
 ### Azure Storage Services
 

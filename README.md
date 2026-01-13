@@ -8,6 +8,39 @@ The application enables management of **products, customer profiles, and orders*
 
 ---
 
+## Project Evolution & Architecture Variants
+
+This project was developed in multiple phases to explore different cloud architectures and Azure services as part of a structured academic Portfolio of Evidence.
+
+### Phase 1 – Azure Storage Services
+- Implemented Azure Table Storage for customer and product data
+- Used Azure Blob Storage for product images
+- Integrated Azure Queue Storage for order processing
+- Stored documents and logs using Azure File Storage
+
+Repository:  
+🔗 https://github.com/DenellVandayar/REPO-PART-1-LINK
+
+---
+
+### Phase 2 – Azure Functions & Serverless Processing
+- Introduced Azure Functions for background processing
+- Automated order workflows triggered by Azure Queue messages
+- Improved system scalability, reliability, and cost efficiency
+
+Repository:  
+🔗 https://github.com/DenellVandayar/REPO-PART-2-LINK
+
+---
+
+### Phase 3 – Azure SQL Database (Current Architecture)
+- Migrated application data to Azure SQL Database
+- Implemented geo-replication for high availability and disaster recovery
+- Simplified architecture while maintaining scalability and reliability
+
+This repository represents the **final production-style implementation**.
+
+
 ## Technologies Used (Tech Stack)
 
 ### Frontend

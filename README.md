@@ -29,7 +29,7 @@ Repository:
 - Improved system scalability, reliability, and cost efficiency
 
 Repository:  
-🔗 https://github.com/DenellVandayar/REPO-PART-2-LINK
+🔗 [https://github.com/DenellVandayar/REPO-PART-2-LINK](https://github.com/DenellVandayar/ABCRETAILCLOUDPHASE2.git)
 
 ---
 

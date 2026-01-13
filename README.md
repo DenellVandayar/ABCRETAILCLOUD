@@ -19,7 +19,7 @@ This project was developed in multiple phases to explore different cloud archite
 - Stored documents and logs using Azure File Storage
 
 Repository:  
-🔗 https://github.com/DenellVandayar/REPO-PART-1-LINK
+🔗 [https://github.com/DenellVandayar/REPO-PART-1-LINK](https://github.com/DenellVandayar/ABCRETAILCLOUDPHASE1.git)
 
 ---
 

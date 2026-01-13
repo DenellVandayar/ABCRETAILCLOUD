@@ -123,6 +123,9 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 
 ### Application Hosted on Azure App Service
 <img width="1349" height="729" alt="azure app running" src="https://github.com/user-attachments/assets/18fddf14-f60d-4991-859b-70657db6aba1" />
+<img width="1366" height="768" alt="cloud publish" src="https://github.com/user-attachments/assets/09adc0d3-2cd3-4ea6-8cfd-d7b47adc1926" />
+<img width="1347" height="718" alt="web deploy azure" src="https://github.com/user-attachments/assets/10c3f5e9-83cd-4dd2-bd36-53c841778532" />
+
 
 ### Product Catalog Page
 <img width="1366" height="625" alt="Screenshot 2024-08-29 122443" src="https://github.com/user-attachments/assets/1a0078b2-9e1a-42fd-b851-5ec26cd40660" />
@@ -156,6 +159,7 @@ The application follows a **cloud-native, service-oriented architecture**, integ
 
 
 ### Azure SQL Database
+<img width="1366" height="768" alt="cloud database publish" src="https://github.com/user-attachments/assets/aef5dd9b-c308-4049-a2a7-0188e1cdba27" />
 <img width="1366" height="768" alt="cloud record database" src="https://github.com/user-attachments/assets/d06c2569-45b7-4d06-899a-86d6b01d9fba" />
 <img width="1349" height="720" alt="Database replica" src="https://github.com/user-attachments/assets/b7d85964-4218-4eed-80c4-93d79080f1f6" />
 
